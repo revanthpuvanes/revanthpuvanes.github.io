@@ -24,6 +24,7 @@ let header = $(`
    <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Education</a></li>
 
    <li class="nav-item nav-item-hover"><a class="nav-link" href="event.html">Hobbies</a></li>
+   <li class="nav-item nav-item-hover"><a href="Revanth.pdf" class="nav-link" target="_blank">Resume</a></li>
    <li class="nav-item">
    <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()">
    </li>

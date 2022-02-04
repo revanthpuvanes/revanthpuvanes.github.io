@@ -6,6 +6,14 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
+    title: "Model Describer",
+    cardImage: "assets/images/project-page/md.jfif",
+    // description: "A quiz app built using basic react.",
+    // tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    // Previewlink: "",
+    Githublink: "https://github.com/revanthpuvanes/Model_describer",
+  },
+  {
     title: "Visual Search Engine",
     cardImage: "assets/images/project-page/vse.png",
     // description: "A quiz app built using basic react.",
