@@ -6,6 +6,20 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "Process Associate",
+    cardImage: "assets/images/experience-page/prochant.png",
+    place: "Prochant - Coimbatore",
+    time: "(Feb, 2023 - May, 2024)",
+    desp: "<li>Writing and executing Equipment Qualification & Process validation.</li> <li>Data collection, analysis, and statistical treatment</li> <li>Understanding of equipment design, validation, and change control process</li> <li>Reporting quality assurance team of production flaws</li>",
+  },
+  {
+    title: "Software Tester",
+    cardImage: "assets/images/experience-page/idealmindz.jpg",
+    place: "Idealmindz - Coimbatore",
+    time: "(Feb, 2022 - Feb, 2023)",
+    desp: "<li>We describe the test environment, including hardware, software, and configurations in the Test Plan.</li> <li>We create test scenarios aligned with user stories in Agile projects while preparing Test Designs.</li>",
+  },
+  {
     title: "Consultant Data Scientist",
     cardImage: "assets/images/experience-page/iqg.jpeg",
     place: "iQGateway - Bangalore",
@@ -13,10 +27,10 @@ const exp = [
     desp: "<li>Worked towards Auto-ML product.</li> <li>Worked on Vehicle Routing Problem by implementing evolutionary algorithms by research papers.</li> <li>Reverse engineered with model-describer library to analyze black box models.</li>",
   },
   {
-    title: "Machine Learning Engineer Intern",
+    title: "Machine Learning Engineer",
     cardImage: "assets/images/experience-page/gloify.jfif",
     place: "Gloify - Bangalore",
-    time: "(May, 2021 - Jul, 2022)",
+    time: "(May, 2021 - Jul, 2021)",
     desp: "<li>Developed an Visual Search Engine for e-commerce.</li><li>Users can search with their images rather than text for products they are looking for.</li><li>Developed a model for reading facial attributes of an user with a responding NLP chatbot with WebRtc.</li>",
   },
   {
@@ -25,6 +39,13 @@ const exp = [
     place: "Rubixe - Bangalore",
     time: "(Aug, 2020 - Jan, 2021)",
     desp:"<li>Derived data driven solutions for several data science projects.</li><li>Worked on several data science products ranging from telecom churn to ficzon sales prediction.</li>",
+  },
+  {
+    title: "Web Developer Trainee",
+    cardImage: "assets/images/experience-page/kappsoft.jpg",
+    place: "Kappsoft - Coimbatore",
+    time: "(Jul, 2019 - Dec, 2019)",
+    desp:"<li>Worked on API integration and developed functionality for systems using APIs</li>",
   },
 ];
 
@@ -64,6 +85,30 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
+    title: "Deep Learning",
+    cardImage: "assets/images/experience-page/dl.jpg",
+    description:
+      "Advanced",
+  },
+  {
+    title: "Computer Vision",
+    cardImage: "assets/images/experience-page/cv.png",
+    description:
+      "Expert",
+  },
+  {
+    title: "Machine Learning",
+    cardImage: "assets/images/experience-page/ml.jpg",
+    description:
+      "Advanced",
+  },
+  {
+    title: "NLP",
+    cardImage: "assets/images/experience-page/nlp.png",
+    description:
+      "Beginner",
+  },
+  {
     title: "Tensorflow",
     cardImage: "assets/images/experience-page/tensorflow.png",
     description:
@@ -96,30 +141,6 @@ const volunteershipcards = [
   {
     title: "Tableau",
     cardImage: "assets/images/experience-page/tableau.png",
-    description:
-      "Beginner",
-  },
-  {
-    title: "Machine Learning",
-    cardImage: "assets/images/experience-page/ml.jpg",
-    description:
-      "Advanced",
-  },
-  {
-    title: "Deep Learning",
-    cardImage: "assets/images/experience-page/dl.jpg",
-    description:
-      "Advanced",
-  },
-  {
-    title: "Computer Vision",
-    cardImage: "assets/images/experience-page/cv.png",
-    description:
-      "Expert",
-  },
-  {
-    title: "NLP",
-    cardImage: "assets/images/experience-page/nlp.png",
     description:
       "Beginner",
   },
@@ -168,12 +189,12 @@ const mentor = [
     image: "assets/images/experience-page/HackerRank.png",
     desp: "I would be responsible for guiding 100s of participants across the globe in their first steps towards Applied Data Science and building end-to-end machine learning projects.",
   },
-  {
-    title: "HackerRank",
-    subtitle: "Programmer",
-    image: "assets/images/experience-page/HackerRank.png",
-    // desp: "ULHacks is a 36 hour long hackathon organized with an aim to enable students to create a project which empowers learning.",
-  },
+  // {
+  //   title: "HackerRank",
+  //   subtitle: "Programmer",
+  //   image: "assets/images/experience-page/HackerRank.png",
+  //   // desp: "ULHacks is a 36 hour long hackathon organized with an aim to enable students to create a project which empowers learning.",
+  // },
   {
     title: "Kaggle",
     subtitle: "Contributor",
@@ -186,12 +207,12 @@ const mentor = [
     image: "assets/images/experience-page/hackerearth.jpg",
     // desp: "Elevate Hacks is an upcoming all-female virtual hackathon coming from AUGUST 14th to 15th.",
   },
-  {
-    title: "PitchTeen",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/pitchteen.png",
-    desp: "PitchTeen 2.0 was a tech startup competition for female and non-binary communities in high school and college from all over the world with an aim to create a safe and encouraging place for women to help them explore tech and business fields.",
-  },
+  // {
+  //   title: "PitchTeen",
+  //   subtitle: "Judge",
+  //   image: "assets/images/experience-page/pitchteen.png",
+  //   desp: "PitchTeen 2.0 was a tech startup competition for female and non-binary communities in high school and college from all over the world with an aim to create a safe and encouraging place for women to help them explore tech and business fields.",
+  // },
   // {
   //   title: "Hack-A-Solution",
   //   subtitle: "Judge",

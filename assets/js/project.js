@@ -79,14 +79,14 @@ const projects = [
     // Previewlink: "",
     Githublink: "https://github.com/revanthpuvanes/computer_vision_basic_project_notebooks",
   },
-  {
-    title: "PDF Rotator",
-    cardImage: "assets/images/project-page/pdf.jpg",
-    // description: "Poker game built using typescript.",
-    // tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
-    // Previewlink: "",
-    Githublink: "https://github.com/revanthpuvanes/PDF_Rotator",
-  },
+  // {
+  //   title: "PDF Rotator",
+  //   cardImage: "assets/images/project-page/pdf.jpg",
+  //   // description: "Poker game built using typescript.",
+  //   // tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
+  //   // Previewlink: "",
+  //   Githublink: "https://github.com/revanthpuvanes/PDF_Rotator",
+  // },
   // {
   //   title: "Battery Life Calculator",
   //   cardImage: "assets/images/project-page/battery.png",
