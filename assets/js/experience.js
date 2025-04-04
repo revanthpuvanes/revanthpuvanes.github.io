@@ -12,13 +12,13 @@ const exp = [
     time: "(Feb, 2023 - May, 2024)",
     desp: "<li>Writing and executing Equipment Qualification & Process validation.</li> <li>Data collection, analysis, and statistical treatment</li> <li>Understanding of equipment design, validation, and change control process</li> <li>Reporting quality assurance team of production flaws</li>",
   },
-  {
-    title: "Software Tester",
-    cardImage: "assets/images/experience-page/idealmindz.jpg",
-    place: "Idealmindz - Coimbatore",
-    time: "(Feb, 2022 - Feb, 2023)",
-    desp: "<li>We describe the test environment, including hardware, software, and configurations in the Test Plan.</li> <li>We create test scenarios aligned with user stories in Agile projects while preparing Test Designs.</li>",
-  },
+  // {
+  //   title: "Software Tester",
+  //   cardImage: "assets/images/experience-page/idealmindz.jpg",
+  //   place: "Idealmindz - Coimbatore",
+  //   time: "(Feb, 2022 - Feb, 2023)",
+  //   desp: "<li>We describe the test environment, including hardware, software, and configurations in the Test Plan.</li> <li>We create test scenarios aligned with user stories in Agile projects while preparing Test Designs.</li>",
+  // },
   {
     title: "Consultant Data Scientist",
     cardImage: "assets/images/experience-page/iqg.jpeg",
