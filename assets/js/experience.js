@@ -5,13 +5,13 @@ AOS.init();
 
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
-  {
-    title: "Process Associate",
-    cardImage: "assets/images/experience-page/prochant.png",
-    place: "Prochant - Coimbatore",
-    time: "(Feb, 2023 - May, 2024)",
-    desp: "<li>Writing and executing Equipment Qualification & Process validation.</li> <li>Data collection, analysis, and statistical treatment</li> <li>Understanding of equipment design, validation, and change control process</li> <li>Reporting quality assurance team of production flaws</li>",
-  },
+  // {
+  //   title: "Process Associate",
+  //   cardImage: "assets/images/experience-page/prochant.png",
+  //   place: "Prochant - Coimbatore",
+  //   time: "(Feb, 2023 - May, 2024)",
+  //   desp: "<li>Writing and executing Equipment Qualification & Process validation.</li> <li>Data collection, analysis, and statistical treatment</li> <li>Understanding of equipment design, validation, and change control process</li> <li>Reporting quality assurance team of production flaws</li>",
+  // },
   // {
   //   title: "Software Tester",
   //   cardImage: "assets/images/experience-page/idealmindz.jpg",
@@ -20,33 +20,33 @@ const exp = [
   //   desp: "<li>We describe the test environment, including hardware, software, and configurations in the Test Plan.</li> <li>We create test scenarios aligned with user stories in Agile projects while preparing Test Designs.</li>",
   // },
   {
-    title: "Consultant Data Scientist",
+    title: "Data Science Consultant",
     cardImage: "assets/images/experience-page/iqg.jpeg",
     place: "iQGateway - Bangalore",
-    time: "(Oct, 2021 - Jan, 2022)",
-    desp: "<li>Worked towards Auto-ML product.</li> <li>Worked on Vehicle Routing Problem by implementing evolutionary algorithms by research papers.</li> <li>Reverse engineered with model-describer library to analyze black box models.</li>",
+    time: "(Oct, 2023 - Mar, 2024)",
+    desp: "<li>Designed and implemented a custom AutoML framework to streamline model training, validation and deployment..</li> <li>Developed a Python library to interpret and explain black-box ML models, improving transparency and stakeholder trust.</li> <li>Applied evolutionary algorithms to optimize the Vehicle Routing Problem (VRP), reducing operational costs and improving efficiency.</li>",
   },
   {
     title: "Machine Learning Engineer",
     cardImage: "assets/images/experience-page/gloify.jfif",
     place: "Gloify - Bangalore",
-    time: "(May, 2021 - Jul, 2021)",
-    desp: "<li>Developed an Visual Search Engine for e-commerce.</li><li>Users can search with their images rather than text for products they are looking for.</li><li>Developed a model for reading facial attributes of an user with a responding NLP chatbot with WebRtc.</li>",
+    time: "(Jan, 2023 - Jun, 2023)",
+    desp: "<li>Built a CNN-based visual search engine for e-commerce, enabling image-to-product matching and improving product discoverability.</li><li>Designed and optimized data pipelines on AWS S3, ensuring efficient storage, retrieval, and scalability.</li><li>Contributed to end-to-end ML pipeline design, from data preprocessing to deployment.</li>",
   },
-  {
-    title: "Data Science Consultant",
-    cardImage: "assets/images/experience-page/rubixe.jpg",
-    place: "Rubixe - Bangalore",
-    time: "(Aug, 2020 - Jan, 2021)",
-    desp:"<li>Derived data driven solutions for several data science projects.</li><li>Worked on several data science products ranging from telecom churn to ficzon sales prediction.</li>",
-  },
-  {
-    title: "Web Developer Trainee",
-    cardImage: "assets/images/experience-page/kappsoft.jpg",
-    place: "Kappsoft - Coimbatore",
-    time: "(Jul, 2019 - Dec, 2019)",
-    desp:"<li>Worked on API integration and developed functionality for systems using APIs</li>",
-  },
+  // {
+  //   title: "Data Science Consultant",
+  //   cardImage: "assets/images/experience-page/rubixe.jpg",
+  //   place: "Rubixe - Bangalore",
+  //   time: "(Aug, 2020 - Jan, 2021)",
+  //   desp:"<li>Derived data driven solutions for several data science projects.</li><li>Worked on several data science products ranging from telecom churn to ficzon sales prediction.</li>",
+  // },
+  // {
+  //   title: "Web Developer Trainee",
+  //   cardImage: "assets/images/experience-page/kappsoft.jpg",
+  //   place: "Kappsoft - Coimbatore",
+  //   time: "(Jul, 2019 - Dec, 2019)",
+  //   desp:"<li>Worked on API integration and developed functionality for systems using APIs</li>",
+  // },
 ];
 
 const showCards2 = () => {
