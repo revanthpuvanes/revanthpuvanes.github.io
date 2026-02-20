@@ -5,33 +5,26 @@ AOS.init();
 
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
-  // {
-  //   title: "Process Associate",
-  //   cardImage: "assets/images/experience-page/prochant.png",
-  //   place: "Prochant - Coimbatore",
-  //   time: "(Feb, 2023 - May, 2024)",
-  //   desp: "<li>Writing and executing Equipment Qualification & Process validation.</li> <li>Data collection, analysis, and statistical treatment</li> <li>Understanding of equipment design, validation, and change control process</li> <li>Reporting quality assurance team of production flaws</li>",
-  // },
-  // {
-  //   title: "Software Tester",
-  //   cardImage: "assets/images/experience-page/idealmindz.jpg",
-  //   place: "Idealmindz - Coimbatore",
-  //   time: "(Feb, 2022 - Feb, 2023)",
-  //   desp: "<li>We describe the test environment, including hardware, software, and configurations in the Test Plan.</li> <li>We create test scenarios aligned with user stories in Agile projects while preparing Test Designs.</li>",
-  // },
+  {
+    title: "Process Data Analyst",
+    cardImage: "assets/images/experience-page/prochant.png",
+    place: "Prochant - Coimbatore",
+    time: "(Feb, 2023 - May, 2024)",
+    desp: "<li>Developed data pipelines using SQL to integrate patient medical and insurance records, improving data availability by 13% and enabling stronger care optimization and reporting.</li> <li>Standardized healthcare records and ensured HIPAA compliance, increasing data processing efficiency by 12% and powering Tableau dashboards and predictive analytics use cases.</li> <li>Created automated data validation checks across medical, billing, and insurance systems, reducing manual effort by 9% and errors by 3%, delivering reliable datasets for BI insights and decision-making.</li>",
+  },
   {
     title: "Data Science Consultant",
     cardImage: "assets/images/experience-page/iqg.jpeg",
     place: "iQGateway - Bangalore",
     time: "(Oct, 2023 - Mar, 2024)",
-    desp: "<li>Designed and implemented a custom AutoML framework to streamline model training, validation and deployment..</li> <li>Developed a Python library to interpret and explain black-box ML models, improving transparency and stakeholder trust.</li> <li>Applied evolutionary algorithms to optimize the Vehicle Routing Problem (VRP), reducing operational costs and improving efficiency.</li>",
+    desp: "<li>Engineered core ML libraries with a multi-metric evaluation method and a custom AutoML system to streamline model training, validation, and deployment, cutting experimentation time by 50%</li> <li>Created a model interpretation toolkit integrating popular methods like SHAP and custom modules, based on data and model-driven approaches, reducing model debugging time by 20%.</li> <li>Designed a capacitated vehicle routing and schedule optimization system for waste management using NetworkX and VRPy, achieving a 15% cost reduction to aid urban planning</li>",
   },
   {
-    title: "Machine Learning Engineer",
+    title: "Machine Learning Intern",
     cardImage: "assets/images/experience-page/gloify.jfif",
     place: "Gloify - Bangalore",
     time: "(Jan, 2023 - Jun, 2023)",
-    desp: "<li>Built a CNN-based visual search engine for e-commerce, enabling image-to-product matching and improving product discoverability.</li><li>Designed and optimized data pipelines on AWS S3, ensuring efficient storage, retrieval, and scalability.</li><li>Contributed to end-to-end ML pipeline design, from data preprocessing to deployment.</li>",
+    desp: "<li>Developed an image-to-product matching system, achieving 100% top-5 retrieval accuracy on a curated benchmark (N queries).</li><li>Analyzed and optimized AWS S3 data pipelines for scalable storage and retrieval, contributing to end-to-end ML pipeline design.</li><li>Improved our OCR system for processing forms by 6% with manual feature extraction, character-level deep networks, and Tesseract</li>",
   },
   // {
   //   title: "Data Science Consultant",
